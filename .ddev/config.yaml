@@ -16,6 +16,7 @@ web_environment: []
 hooks:
   post-start:
     - composer: install
+    - exec-host: "ddev drush cr"
 
 # This config.yaml was created with ddev version v1.17.7
 # webimage: drud/ddev-webserver:v1.17.7
