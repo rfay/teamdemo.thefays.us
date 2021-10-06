@@ -5,3 +5,9 @@
 * Follow along by forking
 * or Follow along in [gitpod](https://gitpod.io/#https://github.com/rfay/teamdemo.thefays.us) in your browser
 
+# Project setup
+```bash
+git clone git@github.com:rfay/teamdemo.thefays.us.git ddev-teamdemo
+cd ddev-teamdemo
+ddev start && ddev composer install
+```
